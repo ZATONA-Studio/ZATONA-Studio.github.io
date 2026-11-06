@@ -59,5 +59,4 @@ a { color: var(--green); }
 
 .nav-links .home-button { margin: 0; padding: 6px 16px; color: var(--green); background: var(--mint); border: 1px solid #b8e7d9; }
 .nav-links .home-button:hover { color: var(--white); background: var(--green); }
-
-   .hero-logo{display:block;margin:0 auto 14px;width:min(190px,48vw);height:auto;filter:drop-shadow(0 14px 24px rgba(0,0,0,.35))}
+.hero-logo{display:block;margin:0 auto 14px;width:min(190px,48vw);height:auto;filter:drop-shadow(0 14px 24px rgba(0,0,0,.35))}
