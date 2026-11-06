@@ -61,5 +61,6 @@ a:focus-visible,.btn:focus-visible{outline:3px solid var(--gold);outline-offset:
 .email{font-weight:600;word-break:break-all}
 .footer-links{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 8px;margin-bottom:6px}
 .content-card ul{padding-inline-start:22px}
-.hero-phone{justify-self:center;display:block;width:min(440px,100%);height:auto;filter:drop-shadow(0 30px 40px rgba(0,0,0,.4))}
-@media(max-width:720px){.hero-phone{width:min(320px,100%)}}
+.hero-phone{justify-self:center;display:block;width:min(580px,100%);height:auto;filter:drop-shadow(0 30px 40px rgba(0,0,0,.4));-webkit-mask-image:linear-gradient(to top,transparent 0,#000 22%),linear-gradient(to right,transparent 0,#000 18%);-webkit-mask-composite:source-in;mask-image:linear-gradient(to top,transparent 0,#000 22%),linear-gradient(to right,transparent 0,#000 18%);mask-composite:intersect}
+@media(min-width:721px){.hero-split{grid-template-columns:1fr 1fr}}
+@media(max-width:720px){.hero-phone{width:min(360px,100%)}}
